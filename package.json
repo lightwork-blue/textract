@@ -1,6 +1,6 @@
 {
   "name": "@lightwork0100/textract",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://www.lightwork.blue",
   "author": "Lightwork AI Team",
   "description": "Extracting text from files of various type including html, pdf, doc, docx, xls, xlsx, csv, pptx, png, jpg, gif, rtf, text/*, and various open office.",
@@ -70,7 +70,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=0.8"
+    "node": ">=18.0.0"
   },
   "bin": {
     "textract": "bin/textract"
@@ -82,5 +82,8 @@
   },
   "bugs": {
     "url": "https://github.com/lightwork-blue/textract/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
